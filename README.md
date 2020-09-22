@@ -15,4 +15,3 @@ Simple app created to understand and learn [Vue.js ](https://vuejs.org/)
 ## Credits
 * Vue.js
 
-
