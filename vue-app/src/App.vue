@@ -1,7 +1,7 @@
 <template></template>
 <script>
 export default {
-  name: 'component-name',
+  name: 'HelloWorld',
 }
 </script>
 
