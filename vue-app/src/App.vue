@@ -31,6 +31,10 @@ th, td {
   border: 1px solid black;
 }
 
+th {
+  background-color: #2c3e50;
+  color: white;
+}
 table {
   margin-left: auto;
   margin-right: auto;
