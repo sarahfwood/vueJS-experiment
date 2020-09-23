@@ -27,7 +27,7 @@ export default {
   margin-top: 60px;
 }
 
-table, th, td {
+th, td {
   border: 1px solid black;
 }
 
