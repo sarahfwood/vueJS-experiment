@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>TEST VUE APP</h1>
+    <h1>Vue App</h1>
     <p>{{ msg }}</p>
       <div id="table">
   <table>
