@@ -2,6 +2,26 @@
   <div class="hello">
     <h1>TEST VUE APP</h1>
     <p>{{ msg }}</p>
+      <div id="table">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Joe Bloggs</td>
+        <td>joebloggs@vueexperiment.com</td>
+      </tr>
+      <tr>
+        <td>Jane Doe</td>
+        <td>janedoe@vueexperiment.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
     <!-- <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
