@@ -22,6 +22,8 @@
     </tbody>
   </table>
 </div>
+
+<p id="date"></p>
     <!-- <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -59,6 +61,8 @@ export default {
     msg: String
   }
 }
+
+document.getElementById("date").innerHTML = Date();
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
