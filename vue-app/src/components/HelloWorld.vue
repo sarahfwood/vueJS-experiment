@@ -24,7 +24,7 @@
 </div>
 
 <div id="app">
-  Last updated: {{ new Date() }}
+  Last updated: {{ new Date().getFullYear() }}
 </div>
     <!-- <h1>{{ msg }}</h1>
     <p>
