@@ -1,29 +1,54 @@
-<template>
-  <div id="app" class="small-container">
-    <h1>Employees</h1>
-
-    <employee-table />
-    </div>
-</template>
-
-<script>
 import EmployeeTable from './components/EmployeeTable.vue'
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
     EmployeeTable,
   },
+  data() {
+    return {
+      employees: [
+        {
+          id: 1,
+          name: 'Thor of Asgard',
+          email: 'thor@avengers.com',
+        },
+        {
+          id: 2,
+          name: 'Captain America',
+          email: 'cap@avengers.com',
+        },
+        {
+          id: 3,
+          name: 'Tony Stark',
+          email: 'ironman@avengers.com',
+        },
+        {
+          id: 4,
+          name: 'Natasha Romanoff',
+          email: 'blackwidow@avengers.com',
+        },
+        {
+          id: 5,
+          name: 'Bruce Banner',
+          email: 'hulk@avengers.com',
+        },
+        {
+          id: 6,
+          name: 'Carole Danvers',
+          email: 'captainmarvel@avengers.com',
+        },
+        {
+          id: 7,
+          name: 'T'Challa',
+          email: 'blackpanther@avengers.com',
+        },
+        {
+          id: 8,
+          name: 'Clint Barton',
+          email: 'hawkeye@avengers.com',
+        },
+      ],
+    }
+  },
 }
-</script>
-
-<style>
-button {
-  background: #009435;
-  border: 1px sold #009435;
-}
-
-.small container {
-  max-width: 680px;
-}
-</style>
