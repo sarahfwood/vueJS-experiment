@@ -1,31 +1,25 @@
 <template>
-  <div id="employee-form">
-    <form>
-      <label>Employee name</label>
-      <input type="text" />
-      <label>Employee Email</label>
-      <input type="text" />
-      <button>Add Employee</button>
-    </form>
+  <div id="employee-table">
+    <table>
+      <tbody>
+        <tr v-for="employee in employees" :key="employee.id">
+          <td>{{ employee.name }}</td>
+          <td>{{ employee.email }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'employee-form',
-  data() {
-    return {
-      employee: {
-        name: '',
-        email: '',
-      },
-    }
+  name: 'employee-table',
+  props: {
+    employees: Array,
   },
 }
 </script>
 
 <style scoped>
-form {
-  margin-bottom: 2rem;
-}
+
 </style>
