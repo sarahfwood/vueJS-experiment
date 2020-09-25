@@ -3,6 +3,7 @@
     <h1>Employees</h1>
 
     <employee-table />
+    </div>
 </template>
 
 <script>
