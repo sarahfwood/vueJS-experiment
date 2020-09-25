@@ -1,3 +1,13 @@
+<template>
+  <div id="app" class="small-container">
+    <h1>Employees</h1>
+
+    <employee-form />
+    <employee-table :employees="employees" />
+  </div>
+</template>
+
+<script>
 import EmployeeTable from './components/EmployeeTable.vue'
 
 export default {
@@ -40,7 +50,7 @@ export default {
         },
         {
           id: 7,
-          name: 'T'Challa',
+          name: 'TChalla',
           email: 'blackpanther@avengers.com',
         },
         {
@@ -52,3 +62,5 @@ export default {
     }
   },
 }
+
+</script>
