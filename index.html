@@ -7,6 +7,16 @@
   <title>Vue App</title>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">{{message}}</div>
+
+  <script>
+    const App = new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello World!',
+      },
+    })
+  </script>
+
 </body>
 </html>
