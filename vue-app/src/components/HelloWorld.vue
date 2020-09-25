@@ -69,6 +69,9 @@ export default {
       let formatted_date = new Date().JSON().slice(0, 10).replace(/ -/g, '/');
       console.log(formatted_date);
     }
+  },
+  mounted () {
+    this.date_function()
   }
 }
 
