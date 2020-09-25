@@ -1,16 +1,18 @@
 <template>
   <div id="app" class="small-container">
     <h1>Employees</h1>
+
+    <employee-table />
 </template>
 
 <script>
-import HelloWorld from './components/EmplyeeTable.vue'
+import EmployeeTable from './components/EmployeeTable.vue'
 
 export default {
   name: 'App',
   components: {
     EmployeeTable,
-  }
+  },
 }
 </script>
 
