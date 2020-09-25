@@ -1,11 +1,10 @@
 <template>
   <div id="app" class="small-container">
     <h1>Employees</h1>
-  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/EmplyeeTable.vue'
 
 export default {
   name: 'App',
