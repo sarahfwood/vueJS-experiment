@@ -59,10 +59,19 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods:{
+    date_function: function() {
+
+      let currentDate = new Date();
+      console.log(currentDate);
+
+      let formatted_date = new Date().JSON().slice(0, 10).replace(/ -/g, '/');
+      console.log(formatted_date);
+    }
   }
 }
 
-document.getElementById("date").innerHTML = Date();
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
