@@ -1,6 +1,6 @@
 <template>
   <div id="employee-form">
-    <form>
+    <form @submit.prevent="handleSubmit">
       <label>Employee Name</label>
       <input type="text" />
       <label>Employee Email</label>
@@ -20,6 +20,11 @@ export default {
         email: '',
       },
     }
+  },
+  methods: {
+    handleSubmit() {
+      console.log('testing handleSubmit')
+    },
   },
 }
 </script>
