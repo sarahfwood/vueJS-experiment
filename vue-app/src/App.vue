@@ -4,7 +4,7 @@
 
     <employee-form />
     <employee-table :employees="employees" />
-    <employee-table @add:employee="addEmployee" />
+    <employee-table @add:employee="add-employee" />
   </div>
 </template>
 
